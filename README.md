@@ -70,6 +70,10 @@ On the UI click **Export History** to download a CSV of all previous checks and 
 ## An illustraion for the UI:
 ![image](https://github.com/user-attachments/assets/dcd7c08b-4888-43c6-a6ba-526bd49a7db5)
 
+## Note:
+
+Because of the API Limitaions, can happen that the planes and the map will not show instantly. it is a rare situation but in this case all you need is to wait until the API limit will reset at 00:00.
+
 
 
 
