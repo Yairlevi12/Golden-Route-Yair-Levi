@@ -54,6 +54,7 @@ A self-contained application to detect and visualize potential collisions betwee
 
    ```bash
    docker-compose up -d --build
+   docker-compose exec backend npx prisma migrate deploy
    ```
 
 4. **Verify**
