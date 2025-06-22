@@ -37,24 +37,11 @@ A self-contained application to detect and visualize potential collisions betwee
    cd Golden-Route-Yair-Levi
    ```
 
-2. **Configure environment variables**
+2. **Make sure your docker is oprn in the background and run in GitBash**
 
-   Copy the sample and fill in your OpenSky credentials:
-
-   ```bash
-   cat > backend/.env << 'EOF'
-   EXTERNAL_API_URL=https://opensky-network.org/api/states/all
-   EXTERNAL_API_USERNAME=<YOUR_OPENSKY_CLIENT_ID>
-   EXTERNAL_API_PASSWORD=<YOUR_OPENSKY_PASSWORD>
-   DATABASE_URL="postgresql://postgres:password@db:5432/drone_db"
-   EOF
-   ```
-
-3. **Bring up the services**
 
    ```bash
    docker-compose up -d --build
-   docker-compose exec backend npx prisma migrate deploy
    ```
 
 4. **Verify**
