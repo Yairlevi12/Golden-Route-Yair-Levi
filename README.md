@@ -93,7 +93,9 @@ On the UI click **Export History** to download a CSV of all previous checks and 
 ---
 
 ## An illustraion for the UI:
-![image](https://github.com/user-attachments/assets/ee02151e-b630-4bab-9a35-e364e328f621)
+![image](https://github.com/user-attachments/assets/dcd7c08b-4888-43c6-a6ba-526bd49a7db5)
+
+
 
 
 ---
