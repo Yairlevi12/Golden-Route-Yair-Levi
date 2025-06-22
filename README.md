@@ -71,18 +71,6 @@ A self-contained application to detect and visualize potential collisions betwee
 4. View the red circle and icons for drone and endangered aircraft on the map.
 5. Click any plane marker for callsign/license and closure time.
 
-### cURL Example
-
-```bash
-curl -X POST http://localhost:5000/api/check \
-  -H "Content-Type: application/json" \
-  -d '{
-    "latitude": "51.4700",
-    "longitude": "-0.4543",
-    "radius": "50",
-    "speed": "900"
-  }'
-```
 
 ---
 
