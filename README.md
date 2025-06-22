@@ -67,9 +67,8 @@ A self-contained application to detect and visualize potential collisions betwee
 
 1. Open the web app at **[http://localhost:3000](http://localhost:3000)**.
 2. Enter the drone’s **Latitude**, **Longitude**, **Radius (km)**, and **Speed (km/h)**.
-3. Click **Check** (or wait for automatic polling).
-4. View the red circle and icons for drone and endangered aircraft on the map.
-5. Click any plane marker for callsign/license and closure time.
+3. View the red circle and icons for drone and endangered aircraft on the map.
+4. Click any plane marker for callsign/license and closure time.
 
 
 ---
